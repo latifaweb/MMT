@@ -9,7 +9,7 @@ export class LinkService {
   private profileSubject = new BehaviorSubject<Profile>({
     name: 'John Doe',
     bio: 'Content Creator & Developer',
-    avatar: 'https://via.placeholder.com/150',
+    avatar: 'https://res.cloudinary.com/dqbpmesug/image/upload/v1750934521/MMT_18_Kreatif_loc1mq.png',
     backgroundColor: '#1a1a1a',
     textColor: '#ffffff'
   });
