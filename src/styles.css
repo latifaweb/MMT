@@ -1,0 +1,46 @@
+/* Jika menggunakan Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Atau jika tidak menggunakan Tailwind, tambahkan CSS manual */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+/* Utility classes jika tidak menggunakan Tailwind */
+.min-h-screen { min-height: 100vh; }
+.container { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 1rem; 
+}
+.mx-auto { margin-left: auto; margin-right: auto; }
+.text-center { text-align: center; }
+.text-2xl { font-size: 1.5rem; }
+.text-lg { font-size: 1.125rem; }
+.font-bold { font-weight: bold; }
+.rounded-full { border-radius: 50%; }
+.rounded-lg { border-radius: 0.5rem; }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+.space-y-4 > * + * { margin-top: 1rem; }
+.mb-8 { margin-bottom: 2rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mt-12 { margin-top: 3rem; }
+.p-4 { padding: 1rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+.w-24 { width: 6rem; }
+.h-24 { height: 6rem; }
+.w-full { width: 100%; }
+.max-w-md { max-width: 28rem; }
+.block { display: block; }
+.transition-all { transition: all 0.3s ease; }
