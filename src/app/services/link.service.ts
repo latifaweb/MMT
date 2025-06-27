@@ -7,9 +7,9 @@ import { Link, Profile } from '../interfaces/link.interface';
 })
 export class LinkService {
   private profileSubject = new BehaviorSubject<Profile>({
-    name: 'John Doe',
-    bio: 'Content Creator & Developer',
-    avatar: 'https://res.cloudinary.com/dqbpmesug/image/upload/v1750934521/MMT_18_Kreatif_loc1mq.png',
+    name: 'MUDA MUDI TANGSI 18',
+    bio: 'Website resmi Muda Mudi Tangsi 18',
+    avatar: 'https://res.cloudinary.com/dqbpmesug/image/upload/v1751008030/1_be6dmn.png',
     backgroundColor: '#1a1a1a',
     textColor: '#ffffff'
   });
@@ -18,15 +18,15 @@ export class LinkService {
     {
       id: 1,
       title: 'Instagram',
-      url: 'https://instagram.com',
+      url: 'https://www.instagram.com/mudamuditangsi/',
       icon: '📷',
       isActive: true
     },
     {
       id: 2,
-      title: 'YouTube',
-      url: 'https://youtube.com',
-      icon: '🎥',
+      title: 'TikTok',
+      url: 'https://www.tiktok.com/@mudamuditangsi',
+      icon: '🎵',
       isActive: true
     },
     {
