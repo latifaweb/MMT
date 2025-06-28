@@ -3,11 +3,14 @@ import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 import { LinkService } from './services/link.service';
 import { Link, Profile } from './interfaces/link.interface';
+import { RouterModule } from '@angular/router';
+import { LinktreeComponent } from "./linktree/linktree";
+import { AppHome } from "./home/home";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule, AppHome],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
